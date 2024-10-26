@@ -13,6 +13,7 @@ libraryDependencies ++= Seq(
   "org.playframework" %% "play-slick" % "6.1.0",
   "org.playframework" %% "play-slick-evolutions" % "6.1.1",
   "org.postgresql" % "postgresql" % "42.7.4",
+  "io.lemonlabs" %% "scala-uri" % "4.0.3"
 )
 
 // Adds additional packages into Twirl

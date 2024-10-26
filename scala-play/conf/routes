@@ -8,3 +8,6 @@ GET     /                           controllers.HomeController.index()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+POST    /v1/person                     controllers.v1.PersonController.addPerson()
+GET     /v1/persons                    controllers.v1.PersonController.getPersons
